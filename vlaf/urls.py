@@ -27,5 +27,5 @@ urlpatterns = [
     path('SobreNosotros.html/', views.nosotros, name='nosotros'), 
     path('Aretes.html/', views.catalogo01, name='catalogo01'),
     path('Collares.html/', views.catalogo02, name='catalogo02'),
-    
+    path('inicioSesion.html/',views.ingresar, name='ingresar')
 ]
