@@ -56,51 +56,6 @@
   }
 
 
-body {
-  font-family: sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #f2f2f2;
-}
-
-header {
-  background-color: #fff;
-  padding: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-h1 {
-  margin: 0;
-  font-size: 24px;
-}
-
-nav ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-
-nav li {
-  margin-left: 20px;
-}
-
-nav a {
-  text-decoration: none;
-  color: #333;
-}
-
-main {
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
 .product-card {
   background-color: #fff;
   padding: 20px;
