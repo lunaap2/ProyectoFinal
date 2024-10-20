@@ -73,12 +73,12 @@
 
 
 .texto-transparente {
-background: rgba(0, 0, 0, 0.7); 
+background: rgba(227, 134, 168, 0.7); 
 border-radius: 10px; 
 padding: 30px; 
 max-width: 600px;
 margin: auto; 
-box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); 
+box-shadow: 0 4px 20px rgba(105, 51, 106, 0.5); 
 text-align: center; 
 }
 

@@ -9,6 +9,7 @@ class Productos(models.Model):
     disponibilidad = models.IntegerField(default=None)
     producto_vendido = models.IntegerField(default=None)
     
+    
 class Clientes(models.Model):
     nombre = models,models.CharField(max_length=50, default=None)
     apellido = models,models.CharField(max_length=50, default=None)
@@ -17,10 +18,12 @@ class Clientes(models.Model):
     numero_telefono = models,models.CharField(max_length=20, default=None)
     interes = models,models.CharField(max_length=200, default=None)
     
+    
 class Empleados(models.Model):
     nombre = models,models.CharField(max_length=50, default=None)
     apellido = models,models.CharField(max_length=50, default=None)
     cargo = models,models.CharField(max_length=50, default=None)
+    
     
 class Factura(models.Model):
      producto = models,models.CharField(max_length=100, default=None)
